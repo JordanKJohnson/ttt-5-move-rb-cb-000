@@ -10,5 +10,5 @@ puts"Where would you like to go?"
 indexStr = gets.strip
 index = input_to_index(indexStr)
 char = "X"
-board = move(board,(input_to_index-1),char)
+board = move(board,(index-1),char)
 display_board(board)
