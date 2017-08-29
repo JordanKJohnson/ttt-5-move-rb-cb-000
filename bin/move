@@ -3,6 +3,7 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-def move(board,index,char = "X")
-  board[index] = char
-end
+indexStr = gets.chomp
+index = indexStr.to_i
+char = "X"
+move(board,index,char)
