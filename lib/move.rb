@@ -6,6 +6,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-index = gets.to_i
+indexStr = gets.chomp
+index = indexStr.to_i
 char = "X"
 move(board,index,char)
