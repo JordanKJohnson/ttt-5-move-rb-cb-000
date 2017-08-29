@@ -7,5 +7,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 indexStr = gets.chomp
 index = indexStr.to_i
 char = "X"
-board = move(board,index,char)
+board = move(board,(index-1),char)
 display_board(board)
