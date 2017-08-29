@@ -7,5 +7,5 @@ def display_board(board)
 end
 
 index = gets.to_i
-board[index] = "X"
-
+char = "X"
+move(board,index,char)
