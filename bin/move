@@ -8,3 +8,4 @@ indexStr = gets.chomp
 index = indexStr.to_i
 char = "X"
 move(board,index,char)
+display_board
