@@ -10,3 +10,7 @@ def move(board,index,char = "X")
   board[index] = char
   board
 end
+
+def input_to_index(string)
+  string.to_i
+end
