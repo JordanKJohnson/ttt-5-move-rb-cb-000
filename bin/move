@@ -3,7 +3,10 @@
 require_relative '../lib/move.rb'
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-# Code your CLI Here
+# Code your CLI Here"
+puts"Welcome to Tic Tac Toe!"
+puts"Where would you like to go?"
+
 indexStr = gets.chomp
 index = indexStr.to_i
 char = "X"
